@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 1rem;
     padding: 40px ;
     border-radius: 10px;
@@ -41,7 +42,7 @@
 }
 .cardCategori h2{
     color: var(--color1);
-    font-size: 50px;
+    font-size: 40px;
 }
 .cardCategori h3{
     color: var(--text-color2);

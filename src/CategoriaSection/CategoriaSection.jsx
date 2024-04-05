@@ -10,7 +10,7 @@ export default function CategoriaSection() {
             <div className='cardCategori'>
                 <FontAwesomeIcon icon={faCar} className='iconCar' />
                 <h2>NEUMÁTICOS</h2>
-                <h3>PARA AUTOS</h3>
+                <h3>AUTOS</h3>
                 <Anchor to={`/`} >
                     Ver más
                 </Anchor>
@@ -18,7 +18,7 @@ export default function CategoriaSection() {
             <div className='cardCategori'>
                 <FontAwesomeIcon icon={faTruck} className='iconCar' />
                 <h2>NEUMÁTICOS</h2>
-                <h3>PARA CAMIONETAS</h3>
+                <h3>CAMIONETAS</h3>
                 <Anchor to={`/`} >
                     Ver más
                 </Anchor>
