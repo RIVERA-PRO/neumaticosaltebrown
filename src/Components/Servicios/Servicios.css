@@ -1,0 +1,72 @@
+.servicios{
+    padding: 100px 7%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.servicios video{
+    border-radius: 10px;
+    height: 80vh;
+    width:50%;
+}
+.serviciosCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.servicioCard{
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    width: 13rem;
+    height: 8rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.127);
+}
+.servicioCard h3{
+    font-size: 15px;
+    padding: 0 5%;
+    color: var(--text-color2);
+}
+.icono{
+    color: var(--color1);
+    font-size: 20px;
+}
+.servicioCard:hover{
+    background-color: var(--color1);
+}
+.servicioCard:hover h3{
+  color: var(--blanco);
+}
+
+.servicioCard:hover .icono{
+    color: var(--blanco);
+  }
+
+  .deFlex{
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  @media (max-width:1024px){
+    .servicios video{
+        height: auto;
+        width:100%;
+    }
+    .deFlex{
+       flex-direction: column;
+       padding:  0;
+      }
+    .servicioCard{
+        width: 100%;
+        
+      
+    }
+  }

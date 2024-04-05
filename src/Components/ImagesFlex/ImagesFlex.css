@@ -1,0 +1,8 @@
+.ImagesFlex{
+    display: flex;
+    gap: 1rem;
+}
+.ImagesFlex img{
+    width: 300px;
+   
+}

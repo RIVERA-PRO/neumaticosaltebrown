@@ -1,0 +1,96 @@
+.CategoriaSection{
+    padding: 60px 7%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    justify-content: center;
+    background-color: var(--gris);
+ 
+}
+.cardCategori{
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 40px ;
+    border-radius: 10px;
+    background-color: var(--blanco);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.127);
+}
+.cardCategori:hover{
+    background-color: var(--color1);
+    
+}
+.cardCategori:hover a{
+    background-color: var(--blanco);
+    color: var(--color1);
+    
+}
+.cardCategori:hover h2{
+    color: var(--blanco);
+    
+}
+.cardCategori:hover h3{
+    color: var(--blanco);
+    
+}
+.cardCategori:hover .iconCar{
+    color: var(--blanco);
+    
+}
+.cardCategori h2{
+    color: var(--color1);
+    font-size: 50px;
+}
+.cardCategori h3{
+    color: var(--text-color2);
+    font-size: 30px;
+}
+.cardCategori a{
+    color: var(--blanco);
+    background-color: var(--color1);
+    font-size: 17px;
+    padding: 10px 20px;
+    border-radius: 7px;
+   
+}
+.iconCar{
+    font-size: 40px;
+    color: var(--color1);
+}
+@media (max-width: 1024px) {
+    .cardCategori{
+        width: 100%;
+        border-radius: 10px;
+    
+        padding: 15px;
+        text-align: center;
+        gap: 10px;
+    }
+    .cardCategori h2{
+        font-size: 18px;
+    }
+    .cardCategori h3{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .cardCategori a{
+        color: var(--blanco);
+        font-size: 13px;
+        padding: 5px 15px;
+       
+    }
+    .iconCar{
+        font-size: 20px;
+    }
+    .CategoriaSection{
+        padding: 20px 4%;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 1rem;
+        justify-content: space-around;
+        overflow-x: scroll;
+        background-color: var(--blanco);
+    }
+}

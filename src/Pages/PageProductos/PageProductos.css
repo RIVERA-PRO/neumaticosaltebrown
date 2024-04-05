@@ -1,0 +1,29 @@
+.bgProductos{
+    background-image: url(../../images/banner5.png);
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--blanco);
+    gap: 10px;
+    margin:  0 4%;
+    border-radius: 10px;
+    
+}
+.bgProductos a{
+    color: var(--blanco);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+@media (max-width: 1024px) {
+    
+    .bgProductos{
+    border-radius: 0;
+    margin: 0;
+    
+}
+}

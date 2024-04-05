@@ -1,0 +1,44 @@
+.acordeon {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .acordeon div {
+  
+    border: 1px solid #cccccc;
+    background-color: var(--blanco);
+   
+  }
+  
+  .acordeon h3 {
+    padding: 10px;
+    margin: 0;
+    font-weight: 500;
+    color: var(--text-color2);
+    cursor: pointer;
+    border: 1px solid #cccccc3e;
+    background-color: var(--blanco);
+  }
+  
+  .acordeon p {
+    margin: 0;
+    transition: min-height 0.3s ease-out;
+    transition: padding 0.3s ease-out;
+    max-height: 0;
+    overflow: hidden;
+   
+}
+  
+  .icon {
+    color: var(--color1); 
+    margin-right: 10px;
+  }
+
+  @media (max-width: 1024px) {
+    .acordeon h3 {
+             font-size: 12px;
+      }
+      .acordeon p {
+        font-size: 12px;
+ }
+  }
